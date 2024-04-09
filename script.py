@@ -67,6 +67,6 @@ if __name__ == "__main__":
     # Check if script is run in CLI mode
     if len(sys.argv) != 3:
         # Display usage message if arguments are incorrect
-        # print("Usage: python script.py <xml_file> <output_path>")
+        print("Usage: python script.py <xml_file> <output_path>")
         sys.exit(1)
     cli_mode(sys.argv[1], sys.argv[2])
